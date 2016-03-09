@@ -8,7 +8,7 @@ public class Calculator {
 		return arg1+arg2;
 	}
 	
-	public int subtract(int arg1, int arg2) { //¼õ·¨
+	public int subtract(int arg1, int arg2) { 
 		return arg1-arg2;
 	}
 	
@@ -20,7 +20,7 @@ public class Calculator {
 		return arg1/arg2;
 	}
 	
-	public boolean isEqual(int arg1, int arg2) { //±È½Ï
+	public boolean isEqual(int arg1, int arg2) { 
 		return arg1 == arg2;
 	}
 
