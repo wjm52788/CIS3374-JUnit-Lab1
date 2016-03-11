@@ -26,13 +26,15 @@ public class CalculatorTest {
 	public void divideTest() {
 		assertEquals(1,calculator.divide(2,2));
 	}
-	@Test
-	public void isEqualTest1(){
-		assertTrue(calculator.isEqual(1,1));
-	}
-	@Test
-	public void isEqualTest2(){
-		assertFalse(calculator.isEqual(1,2));
-	}
+	@Test 
+		public void isEqualPositiveTest() { 
+	 		assertTrue(calculator.isEqual(2, 2)); 
+	 	} 
+	 	 
+	@Test 
+	 	public void isEqualNegativeTest() { 
+	 		assertFalse(calculator.isEqual(4, 2)); 
+	 	} 
+
 
 }
